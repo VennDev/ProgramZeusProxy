@@ -1,0 +1,23 @@
+﻿  packet.cpp
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(14,8): error C2039: 'basic_string': is not a member of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\predefined C++ types (compiler internal)(340): message : see declaration of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(14,20): error C2143: syntax error: missing ';' before '<'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(14,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(14,26): error C2039: 'string': is not a member of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\predefined C++ types (compiler internal)(340): message : see declaration of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(14,41): error C2238: unexpected token(s) preceding ';'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(16,23): error C2039: 'basic_string': is not a member of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\predefined C++ types (compiler internal)(340): message : see declaration of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(16,9): error C2061: syntax error: identifier 'basic_string'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(20,8): error C2039: 'basic_string': is not a member of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\predefined C++ types (compiler internal)(340): message : see declaration of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(20,20): error C2143: syntax error: missing ';' before '<'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(20,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(20,26): error C2039: 'string': is not a member of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\predefined C++ types (compiler internal)(340): message : see declaration of 'std'
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.h(20,45): error C2238: unexpected token(s) preceding ';'
+  The contents of <variant> are available only with C++17 or later.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2363,61): error C2338: The character type of basic_string must be a non-array trivial standard-layout type. See N4861 [strings.general]/1.
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\compat\packet.cpp(12): message : see reference to class template instantiation 'std::basic_string<std::string,std::char_traits<std::string>,std::allocator<std::string>>' being compiled
+  zeus_type_loader.cpp
+  zeus_proxy.cpp

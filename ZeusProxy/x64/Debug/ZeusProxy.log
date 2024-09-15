@@ -1,0 +1,56 @@
+﻿  alert_manager.cpp
+  check_manager.cpp
+  check_type.cpp
+  badpackets_check_loader.cpp
+C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\checks\types\check.h(6,10): fatal error C1083: Cannot open include file: '../data/manager/player_data.h': No such file or directory
+  speed_check_loader.cpp
+C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\checks\types\check.h(6,10): fatal error C1083: Cannot open include file: '../data/manager/player_data.h': No such file or directory
+  packet.cpp
+  packet_handler.cpp
+  packet_manager.cpp
+  data_manager.cpp
+C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\data\manager\player_data.h(7,10): fatal error C1083: Cannot open include file: '../data/transaction/effects/effect_handler.h': No such file or directory
+  player_data.cpp
+C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\data\manager\player_data.h(7,10): fatal error C1083: Cannot open include file: '../data/transaction/effects/effect_handler.h': No such file or directory
+  effect_handler.cpp
+  zeus_type_loader.cpp
+  packet_keep_alive.h
+  packet_player_arm_animation.h
+  packet_player_break_block.h
+  packet_player_login.h
+  packet_player_logout.h
+  packet_player_place_block.h
+  packet_player_position.h
+  packet_play_in_change_mode.h
+  Generating Code...
+  Compiling...
+  packet_play_in_close_window.h
+  packet_play_in_death.h
+  packet_play_in_held_item_slot.h
+  packet_play_in_open_window.h
+  packet_play_in_rotation.h
+  packet_play_in_sneaking.h
+  packet_play_in_sprinting.h
+  packet_play_in_steer_vehicle.h
+  packet_play_in_transaction.h
+  packet_play_in_use_entity.h
+  packet_play_out_blocks_down.h
+  packet_play_out_entity_effect.h
+  packet_play_out_entity_teleport.h
+  packet_play_out_explosion.h
+  packet_play_out_respawn.h
+  packet_play_out_transaction.h
+  protocols.cpp
+C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\protocols\protocols.h(32,10): fatal error C1083: Cannot open include file: 'nlohmann/json.hpp': No such file or directory
+  blocks.cpp
+  date_time.cpp
+  location.cpp
+  Generating Code...
+  Compiling...
+  text_format.cpp
+  zmath.cpp
+  zstring.cpp
+  zvector.cpp
+  zeus_proxy.cpp
+C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\protocols\protocols.h(32,10): fatal error C1083: Cannot open include file: 'nlohmann/json.hpp': No such file or directory
+  Generating Code...

@@ -1,0 +1,62 @@
+﻿  alert_manager.cpp
+  check_manager.cpp
+  check_type.cpp
+  badpackets_check_loader.cpp
+  speed_check_loader.cpp
+  packet.cpp
+  packet_handler.cpp
+  packet_manager.cpp
+  data_manager.cpp
+  player_data.cpp
+  effect_handler.cpp
+  zeus_type_loader.cpp
+  packet_keep_alive.h
+  packet_player_arm_animation.h
+  packet_player_break_block.h
+  packet_player_login.h
+  packet_player_logout.h
+  packet_player_place_block.h
+  packet_player_position.h
+  packet_play_in_change_mode.h
+  Generating Code...
+  Compiling...
+  packet_play_in_close_window.h
+  packet_play_in_death.h
+  packet_play_in_held_item_slot.h
+  packet_play_in_open_window.h
+  packet_play_in_rotation.h
+  packet_play_in_sneaking.h
+  packet_play_in_sprinting.h
+  packet_play_in_steer_vehicle.h
+  packet_play_in_transaction.h
+  packet_play_in_use_entity.h
+  packet_play_out_blocks_down.h
+  packet_play_out_entity_effect.h
+  packet_play_out_entity_teleport.h
+  packet_play_out_explosion.h
+  packet_play_out_respawn.h
+  packet_play_out_transaction.h
+  protocols.cpp
+  blocks.cpp
+  date_time.cpp
+  location.cpp
+  Generating Code...
+  Compiling...
+  text_format.cpp
+  zmath.cpp
+  zstring.cpp
+  zvector.cpp
+  zeus_proxy.cpp
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\zeus_proxy.cpp(42,26): warning C4101: 'pstmt': unreferenced local variable
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\zeus_proxy.cpp(41,18): warning C4101: 'stmt': unreferenced local variable
+  Generating Code...
+zeus_proxy.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl check(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?check@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "void __cdecl check_lib(void)" (?check_lib@@YAXXZ)
+zeus_proxy.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl check(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > const &)" (__imp_?check@@YAXABV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@@Z) referenced in function "void __cdecl check_lib(void)" (?check_lib@@YAXXZ)
+zeus_proxy.obj : error LNK2019: unresolved external symbol __imp___get_driver_instance_by_name referenced in function _get_driver_instance_by_name
+C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\library\mysqlcppconn-static.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+library\libcrypto.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+library\libssl.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+library\mysqlcppconn.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+library\mysqlcppconn8-static.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+library\mysqlcppconn8.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Nam\Desktop\ZeusProxy\Debug\ZeusProxy.exe : fatal error LNK1120: 3 unresolved externals

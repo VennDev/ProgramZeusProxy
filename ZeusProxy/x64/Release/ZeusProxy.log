@@ -1,0 +1,12 @@
+﻿  zeus_proxy.cpp
+  Generating code
+  1 of 2444 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ZeusProxy.vcxproj -> C:\Users\VennDev\Desktop\ZeusProxy\x64\Release\ZeusProxy.exe
+  C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\lib64\libcrypto-3-x64.dll
+  C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\lib64\libssl-3-x64.dll
+  C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\lib64\mysqlcppconn-9-vs14.dll
+  C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\lib64\mysqlcppconn8-2-vs14.dll
+          4 file(s) copied.

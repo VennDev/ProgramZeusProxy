@@ -1,0 +1,13 @@
+{
+    "data-base": {
+        "host": "localhost",
+        "password": "",
+        "port": 3306,
+        "type": "mysql",
+        "user": "root"
+    },
+    "debug-mode": false,
+    "hostname": "127.0.0.1",
+    "port": 19137,
+    "size-font-terminal": 14
+}

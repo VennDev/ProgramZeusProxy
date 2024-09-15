@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1752ea6a-e614-41bf-9408-9afcfcd65d4e}</ProjectGuid>
+    <RootNamespace>ZeusProxy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IncludePath>C:\Users\VennDev\Desktop\Folders\ZeusProxy\ZeusProxy\include\jdbc;C:\Users\VennDev\Desktop\Folders\ZeusProxy\ZeusProxy\include\mysql;C:\Users\VennDev\Desktop\Folders\ZeusProxy\ZeusProxy\include\mysqlx;C:\Users\VennDev\Desktop\Folders\ZeusProxy\ZeusProxy\include\nlohmann;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\VennDev\Desktop\Folders\ZeusProxy\ZeusProxy\lib64\vs14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\include\jdbc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\lib64\vs14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>&lt;Different Options&gt;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\include</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Nam\Desktop\ZeusProxy\ZeusProxy\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;&lt;Different Options&gt;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\VennDev\Desktop\Folders\ZeusProxy\ZeusProxy\include</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;mysqlcppconn.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>mysqlcppconn.lib;ws2_32.Lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y  "C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\lib64\*.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="alert\alert_manager.cpp" />
+    <ClCompile Include="checks\check_manager.cpp" />
+    <ClCompile Include="checks\enums\check_type.cpp" />
+    <ClCompile Include="checks\impl\badpackets\badpackets_check_loader.cpp" />
+    <ClCompile Include="checks\impl\speed\speed_check_loader.cpp" />
+    <ClCompile Include="compat\packet.cpp" />
+    <ClCompile Include="compat\packet_handler.cpp" />
+    <ClCompile Include="compat\packet_manager.cpp" />
+    <ClCompile Include="data\manager\data_manager.cpp" />
+    <ClCompile Include="data\manager\player_data.cpp" />
+    <ClCompile Include="data\transaction\effects\effect_handler.cpp" />
+    <ClCompile Include="loader\zeus_type_loader.cpp" />
+    <ClCompile Include="protocols\packet_keep_alive.h" />
+    <ClCompile Include="protocols\packet_player_arm_animation.h" />
+    <ClCompile Include="protocols\packet_player_break_block.h" />
+    <ClCompile Include="protocols\packet_player_login.h" />
+    <ClCompile Include="protocols\packet_player_logout.h" />
+    <ClCompile Include="protocols\packet_player_place_block.h" />
+    <ClCompile Include="protocols\packet_player_position.h" />
+    <ClCompile Include="protocols\packet_play_in_change_mode.h" />
+    <ClCompile Include="protocols\packet_play_in_close_window.h" />
+    <ClCompile Include="protocols\packet_play_in_death.h" />
+    <ClCompile Include="protocols\packet_play_in_held_item_slot.h" />
+    <ClCompile Include="protocols\packet_play_in_open_window.h" />
+    <ClCompile Include="protocols\packet_play_in_rotation.h" />
+    <ClCompile Include="protocols\packet_play_in_sneaking.h" />
+    <ClCompile Include="protocols\packet_play_in_sprinting.h" />
+    <ClCompile Include="protocols\packet_play_in_steer_vehicle.h" />
+    <ClCompile Include="protocols\packet_play_in_transaction.h" />
+    <ClCompile Include="protocols\packet_play_in_use_entity.h" />
+    <ClCompile Include="protocols\packet_play_out_blocks_down.h" />
+    <ClCompile Include="protocols\packet_play_out_entity_effect.h" />
+    <ClCompile Include="protocols\packet_play_out_entity_teleport.h" />
+    <ClCompile Include="protocols\packet_play_out_explosion.h" />
+    <ClCompile Include="protocols\packet_play_out_respawn.h" />
+    <ClCompile Include="protocols\packet_play_out_transaction.h" />
+    <ClCompile Include="protocols\protocols.cpp" />
+    <ClCompile Include="provider\database\mysql.cpp">
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AssemblerListingLocation>x64\Release\</AssemblerListingLocation>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformationFile>x64\Release\</BrowseInformationFile>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <CompileAs>Default</CompileAs>
+      <ConformanceMode>true</ConformanceMode>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnableASAN>false</EnableASAN>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ModuleDependenciesFile>x64\Release\</ModuleDependenciesFile>
+      <ModuleOutputFile>x64\Release\</ModuleOutputFile>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <Optimization>MaxSpeed</Optimization>
+      <ObjectFileName>x64\Release\</ObjectFileName>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ProgramDataBaseFileName>x64\Release\vc142.pdb</ProgramDataBaseFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>x64\Release\ZeusProxy.pch</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDll</RuntimeLibrary>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <ShowIncludes>false</ShowIncludes>
+      <SourceDependenciesFile>x64\Release\</SourceDependenciesFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <SpectreMitigation>false</SpectreMitigation>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <TrackerLogDirectory>x64\Release\ZeusProxy.tlog\</TrackerLogDirectory>
+      <TranslateIncludes>false</TranslateIncludes>
+      <MinimalRebuildFromTracking>true</MinimalRebuildFromTracking>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <XMLDocumentationFileName>x64\Release\</XMLDocumentationFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <IntelJCCErratum>false</IntelJCCErratum>
+      <TreatAngleIncludeAsExternal>false</TreatAngleIncludeAsExternal>
+      <ExternalWarningLevel>InheritWarningLevel</ExternalWarningLevel>
+      <TreatExternalTemplatesAsInternal>true</TreatExternalTemplatesAsInternal>
+      <DisableAnalyzeExternal>false</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_UNICODE;UNICODE;</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\VennDev\Desktop\ZeusProxy\ZeusProxy\include</AdditionalIncludeDirectories>
+      <LinkCompiled>true</LinkCompiled>
+    </ClCompile>
+    <ClCompile Include="provider\provider.cpp" />
+    <ClCompile Include="utils\blocks.cpp" />
+    <ClCompile Include="utils\date_time.cpp" />
+    <ClCompile Include="utils\location.cpp" />
+    <ClCompile Include="utils\text_format.cpp" />
+    <ClCompile Include="utils\zmath.cpp" />
+    <ClCompile Include="utils\zstring.cpp" />
+    <ClCompile Include="utils\zvector.cpp" />
+    <ClCompile Include="zeus_proxy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alert\alert_manager.h" />
+    <ClInclude Include="checks\check_manager.h" />
+    <ClInclude Include="checks\enums\check_type.h" />
+    <ClInclude Include="checks\impl\badpackets\badpackets_a.h" />
+    <ClInclude Include="checks\impl\speed\speed_a.h" />
+    <ClInclude Include="checks\impl\speed\speed_b.h" />
+    <ClInclude Include="checks\types\check.h" />
+    <ClInclude Include="compat\packet.h" />
+    <ClInclude Include="compat\packet_handler.h" />
+    <ClInclude Include="compat\packet_manager.h" />
+    <ClInclude Include="data\manager\data_manager.h" />
+    <ClInclude Include="data\manager\player_data.h" />
+    <ClInclude Include="data\transaction\effects\effect_handler.h" />
+    <ClInclude Include="include\nlohmann\adl_serializer.hpp" />
+    <ClInclude Include="include\nlohmann\byte_container_with_subtype.hpp" />
+    <ClInclude Include="include\nlohmann\detail\abi_macros.hpp" />
+    <ClInclude Include="include\nlohmann\detail\conversions\from_json.hpp" />
+    <ClInclude Include="include\nlohmann\detail\conversions\to_chars.hpp" />
+    <ClInclude Include="include\nlohmann\detail\conversions\to_json.hpp" />
+    <ClInclude Include="include\nlohmann\detail\exceptions.hpp" />
+    <ClInclude Include="include\nlohmann\detail\hash.hpp" />
+    <ClInclude Include="include\nlohmann\detail\input\binary_reader.hpp" />
+    <ClInclude Include="include\nlohmann\detail\input\input_adapters.hpp" />
+    <ClInclude Include="include\nlohmann\detail\input\json_sax.hpp" />
+    <ClInclude Include="include\nlohmann\detail\input\lexer.hpp" />
+    <ClInclude Include="include\nlohmann\detail\input\parser.hpp" />
+    <ClInclude Include="include\nlohmann\detail\input\position_t.hpp" />
+    <ClInclude Include="include\nlohmann\detail\iterators\internal_iterator.hpp" />
+    <ClInclude Include="include\nlohmann\detail\iterators\iteration_proxy.hpp" />
+    <ClInclude Include="include\nlohmann\detail\iterators\iterator_traits.hpp" />
+    <ClInclude Include="include\nlohmann\detail\iterators\iter_impl.hpp" />
+    <ClInclude Include="include\nlohmann\detail\iterators\json_reverse_iterator.hpp" />
+    <ClInclude Include="include\nlohmann\detail\iterators\primitive_iterator.hpp" />
+    <ClInclude Include="include\nlohmann\detail\json_custom_base_class.hpp" />
+    <ClInclude Include="include\nlohmann\detail\json_pointer.hpp" />
+    <ClInclude Include="include\nlohmann\detail\json_ref.hpp" />
+    <ClInclude Include="include\nlohmann\detail\macro_scope.hpp" />
+    <ClInclude Include="include\nlohmann\detail\macro_unscope.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\call_std\begin.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\call_std\end.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\cpp_future.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\detected.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\identity_tag.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\is_sax.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\std_fs.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\type_traits.hpp" />
+    <ClInclude Include="include\nlohmann\detail\meta\void_t.hpp" />
+    <ClInclude Include="include\nlohmann\detail\output\binary_writer.hpp" />
+    <ClInclude Include="include\nlohmann\detail\output\output_adapters.hpp" />
+    <ClInclude Include="include\nlohmann\detail\output\serializer.hpp" />
+    <ClInclude Include="include\nlohmann\detail\string_concat.hpp" />
+    <ClInclude Include="include\nlohmann\detail\string_escape.hpp" />
+    <ClInclude Include="include\nlohmann\detail\value_t.hpp" />
+    <ClInclude Include="include\nlohmann\json.hpp" />
+    <ClInclude Include="include\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="include\nlohmann\ordered_map.hpp" />
+    <ClInclude Include="include\nlohmann\thirdparty\hedley\hedley.hpp" />
+    <ClInclude Include="include\nlohmann\thirdparty\hedley\hedley_undef.hpp" />
+    <ClInclude Include="loader\zeus_type_loader.h" />
+    <ClInclude Include="protocols\protocols.h" />
+    <ClInclude Include="provider\database\mysql.h" />
+    <ClInclude Include="provider\provider.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="utils\blocks.h" />
+    <ClInclude Include="utils\date_time.h" />
+    <ClInclude Include="utils\location.h" />
+    <ClInclude Include="utils\text_format.h" />
+    <ClInclude Include="utils\zmath.h" />
+    <ClInclude Include="utils\zstring.h" />
+    <ClInclude Include="utils\zvector.h" />
+    <ClInclude Include="zeus_proxy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="zeus_proxy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Folders\Projects\AntiCheat Project\ZeusApplication\app\public\images\icon.ico" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="checks\impl\aim\" />
+    <Folder Include="checks\impl\autoclicker\" />
+    <Folder Include="checks\impl\elytra\" />
+    <Folder Include="checks\impl\fastclimb\" />
+    <Folder Include="checks\impl\fly\" />
+    <Folder Include="checks\impl\hitbox\" />
+    <Folder Include="checks\impl\interact\" />
+    <Folder Include="checks\impl\inventory\" />
+    <Folder Include="checks\impl\jesus\" />
+    <Folder Include="checks\impl\killaura\" />
+    <Folder Include="checks\impl\motion\" />
+    <Folder Include="checks\impl\nofall\" />
+    <Folder Include="checks\impl\noslow\" />
+    <Folder Include="checks\impl\omnisprint\" />
+    <Folder Include="checks\impl\reach\" />
+    <Folder Include="checks\impl\scaffold\" />
+    <Folder Include="checks\impl\timer\" />
+    <Folder Include="checks\impl\vehicle\" />
+    <Folder Include="checks\impl\velocity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libmongocrypt.dylib" />
+    <Content Include="libmongocrypt.so" />
+    <Content Include="mongocrypt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <Import Project="..\packages\MongoDB.Libmongocrypt.1.8.1\build\MongoDB.Libmongocrypt.targets" Condition="Exists('..\packages\MongoDB.Libmongocrypt.1.8.1\build\MongoDB.Libmongocrypt.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MongoDB.Libmongocrypt.1.8.1\build\MongoDB.Libmongocrypt.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MongoDB.Libmongocrypt.1.8.1\build\MongoDB.Libmongocrypt.targets'))" />
+  </Target>
+</Project>
